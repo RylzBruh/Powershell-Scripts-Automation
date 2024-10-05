@@ -2,7 +2,7 @@
 Connect-AzAccount
 
 # Define the user/group to which the IAM roles will be assigned
-$userOrGroup = "232e047b-fd5d-4d18-b841-a39c1ff110f5"
+$userOrGroup = "User\groupID"
 
 # Loop through all subscriptions
 Get-AzSubscription | ForEach-Object {
